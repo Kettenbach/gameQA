@@ -12,9 +12,9 @@ https://kettenbach.github.io/gameQA/
 
 ### Keyboard controls:
   
-  - Arrow keys to move
+  - Arrow keys or W, S, A, D to move
   - Space bar to jump
-  - "A" and "D" keys to orbit the camera
+  - Mouse to orbit the camera
 
 ### Collect eight rotating boxes to win
 ### Jump on top of Mechs to make them disappear
