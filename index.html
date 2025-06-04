@@ -6,7 +6,7 @@
 		<title>twenty_eight</title>
 		<style>
 html, body, #canvas {
-	margin: 300;
+	margin: 0;
 	padding: 0;
 	border: 0;
 }
@@ -29,14 +29,14 @@ body {
 <!--defaults are zero for left and right-->
 #status, #status-splash, #status-progress {
 	position: absolute;
-	left: 480;
-	right: 480;
+	left: 0;
+	right: 0;
 }
 
 <!--defaults area zero for top and bottom -->
 #status, #status-splash {
-	top: 270;
-	bottom: 270;
+	top: 0;
+	bottom: 0;
 }
 
 #status {
@@ -49,8 +49,8 @@ body {
 }
 <!-- Reducing the boot splash by half -->
 #status-splash {
-	max-height: 50%;
-	max-width: 50%;
+	max-height: 100%;
+	max-width: 100%;
 	margin: auto;
 }
 
@@ -59,8 +59,8 @@ body {
 }
 
 #status-splash.fullsize--true {
-	height: 50%;
-	width: 50%;
+	height: 100%;
+	width: 100%;
 	object-fit: contain;
 }
 
@@ -114,7 +114,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":11211184,"index.wasm":1626559},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"index.service.worker.js"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":11211184,"index.wasm":1626559},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"index.service.worker.js"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
